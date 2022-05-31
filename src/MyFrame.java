@@ -264,7 +264,7 @@ public class MyFrame extends JFrame implements ActionListener {
 		tracks.add(track4);
 		tracks.add(track5);
 		tracks.add(track6);
-		
+	
 		System.out.println("Track list BEFORE Shuffle: "); 
 		for(int i=0; i<tracks.size(); i++) {
 			System.out.println("Track " + (i + 1) + ": " + tracks.get(i));
